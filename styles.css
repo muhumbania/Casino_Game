@@ -21,7 +21,7 @@ h1{
     font-size: large;
 }
 
-.welcome button{
+.btn{
     background-color: rgb(255, 255, 255);
     padding: 15px 15px;
     font-size: large;
@@ -31,3 +31,27 @@ h1{
     font-weight: 700;
     cursor: pointer;
 }
+
+.start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 2rem;
+}
+
+.input{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.balance{
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+
+
